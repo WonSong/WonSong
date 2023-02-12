@@ -1,0 +1,29 @@
+{
+  "name": "wonsong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node build/build-notes && serve docs/ -l 9000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@andymatuschak/note-link-janitor": "^0.0.1",
+    "highlight.js": "^11.7.0",
+    "next": "13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.2",
+    "rimraf": "^4.1.2",
+    "sass": "^1.58.0"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.1.0",
+    "imagemin": "^7.0.1",
+    "serve": "^14.2.0",
+    "sharp": "^0.31.3"
+  },
+  "author": "Won Song <hello@wonsong.me>",
+  "license": "MIT"
+}
